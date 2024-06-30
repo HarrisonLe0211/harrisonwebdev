@@ -15,19 +15,29 @@
         <h2>Section 2</h2>
             <p>Please suggest some content.</p>
 
-            <p class="p1"> Red </p>
-            <p class="p2"> Green </p>
-            <p class="p3"> Blue </p>
-            <p class="p4"> Yellow </p>
-            <p class="p5"> Purple </p>
+        <ol type = "1">
+            <li class="p1"> Red </li>
+            <li class="p2"> Green </li>
+            <li class="p3"> Blue </li>
+        </ol>
             <pre>
                 Nerd font text here.
             </pre>
 
         <h2>Formatting demos:</h2>
-            <p id="breakLeft">Line 1 Left <br>Line 2 <del>Left</del> <br>Line 3 Left</p>
-            <p id="breakCenter">Line 1 Middle <br>Line 2 <mark>Middle</mark> <br>Line 3 Middle</p>
-            <p id="breakRight">Line 1 Right <br>Line 2 <ins>Right</ins> <br>Line 3 Right</p>
+        <ul>
+            <li id="breakLeft">Line 1 Left </li>
+            <li id="breakLeft">Line 2 Left </li>
+            <li id="breakLeft">Line 3 Left </li>
+
+            <li id="breakCenter">Line 1 Center </li>
+            <li id="breakCenter">Line 2 Center </li>
+            <li id="breakCenter">Line 3 Center </li>
+
+            <li id="breakRight">Line 1 Right </li>
+            <li id="breakRight">Line 2 Right </li>
+            <li id="breakRight">Line 3 Right </li>
+        </ul>
 
         <h2>Hyperlink</h2>
             <a href="https://www.google.com">Google.com</a>
@@ -37,12 +47,36 @@
         <h2>Button</h2>
             <button type="button" onclick="alert('Button clicked')">Click Here</button>
 
+        <h2>Tables</h2>
+        <table>
+            <caption> Test table </caption> 
+            <thead> (Header of the table)
+                    <tr>
+                        <td> Column 1 </td>
+                        <td> Column 2 </td>
+                        <td> Column 3 </td>
+                    </tr>
+            <thead>
+            
+            <tbody> 
+                <tr>
+                    <td> Cell 1 </td>
+                    <td> Cell 2 </td>
+                    <td> Cell 3 </td>
+                </tr>
+                
+                <tr>
+                    <td> Cell 4 </td>
+                    <td> Cell 5 </td>
+                    <td> Cell 6 </td>
+                </tr>
+            </tbody>
+        <table>
+        
     <style>
         .p1{color:red; font-size:20px;}
         .p2{color:green; font-size:25px;}
         .p3{color:blue; font-size:30px;}
-        .p4{color:yellow; font-size:35px;}
-        .p5{color:purple; font-size:40px;}
         body{background-color: grey;}
         #breakLeft{text-align: left;}
         #breakRight{text-align: right;}
