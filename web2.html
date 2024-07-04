@@ -5,29 +5,79 @@
     <title> Practice 2 </title>
 </head>
 <body>
-    <table>
         
-        <header><h1>Layout header</h1></header>
-        <footer>Layout footer</footer>
-        <nav>
-            <a href="https://www.google.com"> Link to Google</a> <br>
-            <a href="https://www.facebook.com"> Link to Facebook</a> <br>
-            <a href="https://www.youtube.com"> Link to YouTube</a> <br>
-        </nav>
+    <header><h1>Layout header</h1></header>
+    <footer>Layout footer</footer>
+    <nav>
+        <a href="https://www.google.com"> Link to Google</a> <br>
+        <a href="https://www.facebook.com"> Link to Facebook</a> <br>
+        <a href="https://www.youtube.com"> Link to YouTube</a> <br>
+    </nav>
 
-        <section>
-            <h2>Section 1</h2>
-            <p>Content</p>
-        </section>
+    <section>
+        <h2>Section 1</h2>
+        <p>Content</p>
+    </section>
 
-        <details>
-            <summary>More content</summary>
-            <p>Things inside "More content"</p>
-        </details>
+    <details>
+        <summary>More content</summary>
+        <p>Things inside "More content"</p>
+    </details>
 
+    <div id="divGroup">
+        <h2 id="heading2">Section 2</h2>
+        <p id="para">The following is an image:</p>
+        <img id="image" src="icon1.png" width="50" height="50">
+        <p id="para">The following is a demonstration of a span tag. <span style="color:blue">This part of the text </span>is spanned.<br>
+        The following text <span id="span1"> is also spanned.</span>
+        </p>
+    </div>
 
-        
-    
+    <form>
+        Please tell me your name:<br>
+        <input type="text"><br>
+        Please tell me your gender:<br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="gey" name="gender" value="gey">
+        <label for="gey">Other</label><br>
+        Are you 18 years old or older?<br>
+        <input type="radio" id="underage" name="age" value="underage">
+        <label for="underage">No</label><br>
+        <input type="radio" id="adult" name="age" value="adult">
+        <label for="adult">Yes</label><br>
+        Create your user profile:<br>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="password" name="password"><br>
+        <input type="button" onclick="alert('Submitted')" value="Submit">
+    </form>
+
+    <style>
+        #span1{
+            font-style: italic;
+            color:rgb(0,255,37)
+        }
+        p{
+            color:rgba(5, 72, 91, 0.836)
+        }
+        h2{
+            color: #ff00ff70;
+        }
+        h1{
+            color:hsl(177, 88%, 56%)
+        }
+        summary{
+            color:hsla(57, 70%, 80%, 0.749)
+        }
+        header{
+            color:hsla
+        }
+    </style>
+
 </body>
 
     
